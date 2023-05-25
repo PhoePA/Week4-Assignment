@@ -7,7 +7,7 @@ const Card = ({ fruit }) => {
   const currentAmountNumber = +currentAmount;
 
   const addToCartHandler = () => {
-    if (currentAmountNumber < 1 || currentAmountNumber > 5) {
+    if (currentAmountNumber < 1 || currentAmountNumber > 100) {
       alert("Please Enter Valid Amount!");
       return;
     }
